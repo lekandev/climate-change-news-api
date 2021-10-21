@@ -1,0 +1,29 @@
+{
+  "name": "climate-change-news-api",
+  "version": "1.0.0",
+  "description": "API showing news about climate change from multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lekandev/climate-change-news-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lekandev/climate-change-news-api/issues"
+  },
+  "homepage": "https://github.com/lekandev/climate-change-news-api#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.18.1"
+  }
+}
